@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6v0451/v1
+canonical_location: https://kanripo.org/bkk/KR6v0451/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 華嚴經釋題
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B32/B32n0190.xml
+    old_id: B32n0190
+  edition:
+    short: bkk
+editions:
+- short: 補編
+  label: 補編
+  source_xml_id: wit.orig
+- short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0451_000.yaml, hash: 'sha256:8794bbe4411442975edeed8a0def4d540bc9c35ffcc7e742674d3e863222232f'}
+  - {seq: 1, filename: KR6v0451_001.yaml, hash: 'sha256:65475f6272e1567dd3705398d17bd3419fd093f0c0c3f99f947e1da50e606136'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0451_001.markers.yaml, hash: 'sha256:788354ea5b49d57add0bd782d1869f7fa9e7dec92b293789dc088777e7539137'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0451_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 6039
+  label: 華嚴經釋題
+  type: juan
+  level: 1
+hash: sha256:523e6fdeed648aef3d3b16fbb3ef55e0eedfb777694ec7146d335c136fd6590c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

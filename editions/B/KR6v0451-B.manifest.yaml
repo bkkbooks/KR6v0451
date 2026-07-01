@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6v0451/B/v1
+canonical_location: https://kanripo.org/bkk/KR6v0451/B/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 華嚴經釋題
+  identifiers:
+    krp: KR6v0451
+    cbeta: B32n0190
+    cbeta_old_id: B32n0190
+    authorityid: CA0006276
+    json_key: B0190
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/B/B32/B32n0190.xml
+    old_id: B32n0190
+  edition:
+    short: B
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0451_000-B.yaml, hash: 'sha256:8794bbe4411442975edeed8a0def4d540bc9c35ffcc7e742674d3e863222232f'}
+  - {seq: 1, filename: KR6v0451_001-B.yaml, hash: 'sha256:83d65b61a98316837bb416745446cc884b6c05f52501ac6d21482d2306e6d789'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0451_000-B.markers.yaml, hash: 'sha256:544269ce4d5ec5b7d50ae76c99290fa919ed782f3ad5240c1da119ae154e047d'}
+  - {seq: 1, role: markers, filename: assets/KR6v0451_001-B.markers.yaml, hash: 'sha256:d6c2210876f74c0a3952ed122e7c00fff15b8a92487055b56a0eae88707df73d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0451_B_001-juan-start
+    span:
+    - body
+    - 0
+    - 6039
+  label: 華嚴經釋題
+  type: juan
+  level: 1
+hash: sha256:03f2f4a6480dabc0bde8941d8e6ccd9d14ac184c567e7e7173224c1404aafce9
